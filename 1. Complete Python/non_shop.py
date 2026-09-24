@@ -5,3 +5,6 @@ class Chai:
     
     def sip(self):
         print("Sipping Chai")
+    
+    def add_sugar(self, amount):
+        
