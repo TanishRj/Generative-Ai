@@ -7,4 +7,4 @@ class Chai:
         print("Sipping Chai")
     
     def add_sugar(self, amount):
-        print("added")
+        print("added the sugar")
