@@ -11,4 +11,5 @@ amount = 24
 # print(f"Id of 2: {id(12)}")
 # print(f"Id of 12: {id(24)}")
 
-# MUTABLE
+# MUTABLE using set function from python
+mutable_variable = set()
