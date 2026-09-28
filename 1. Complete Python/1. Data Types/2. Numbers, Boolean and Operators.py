@@ -3,6 +3,7 @@
 wheat_flour = 20
 refined_flour = 20
 servings = 6
+scale = 3
 
 # Add
 total_flour = wheat_flour + refined_flour
@@ -21,4 +22,12 @@ print(f"Combined flour served per serving as whole : {whole_div_flour}")
 # Remainder (modulus)
 remaining_flour = total_flour % servings
 print(f"Combined flour served per serving as whole : {remaining_flour}")
+
 # Exponential
+power_flour = total_flour ** scale
+print(f"Powerful Flour : {power_flour}")
+
+# Big Number
+added_salt_particles = 100_000_000
+print(f"Total salt particles : {added_salt_particles}")
+
