@@ -1,4 +1,3 @@
-# NUMBERS
 # Integers
 wheat_flour = 20
 refined_flour = 20
