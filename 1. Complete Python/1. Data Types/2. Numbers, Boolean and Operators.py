@@ -21,4 +21,4 @@ print(f"Combined flour served per serving as whole : {whole_div_flour}")
 # Remainder (modulus)
 remaining_flour = total_flour % servings
 print(f"Combined flour served per serving as whole : {remaining_flour}")
-# Exponent
+# Exponential
