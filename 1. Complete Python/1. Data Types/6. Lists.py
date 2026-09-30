@@ -6,3 +6,5 @@ print(f"Clothes are: {clothes}")
 # Removing item
 clothes.remove("Trousers")
 print(f"Clothes are: {clothes}")
+
+# Extending list
