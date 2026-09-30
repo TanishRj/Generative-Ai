@@ -15,3 +15,4 @@ print(f"We have {bmw_car} BMW car and {audi_car} Audi car")
 # Checking if values are present in tuples - Membership Testing
 print(f"Is toyota present in cars list: {'toyota' in cars} ")
 print(f"Is BMW present in cars list: {'bmw' in cars} ")
+print(f"Is Audi present in cars list: {'audi' in cars} ")
