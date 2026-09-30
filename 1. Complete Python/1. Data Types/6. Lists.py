@@ -37,4 +37,4 @@ print(f"Minimum wardrobe size: {min(wardrobe_storage)}")
 # Adding lists by '+' [Operator Overloading]
 accessories = ["Silver metal watch", "Ajmal Silver shade"]
 new_wardrobe = clothes + accessories
-print(f"")
+print(f"New wardrobe")
