@@ -4,5 +4,5 @@ clothes = ["Tshirt", "Shirt", "Jeans"]
 clothes.append("Trousers")
 print(f"Clothes are: {clothes}")
 # Removing item
-clothes.append("Trousers")
+clothes.remove("Trousers")
 print(f"Clothes are: {clothes}")
