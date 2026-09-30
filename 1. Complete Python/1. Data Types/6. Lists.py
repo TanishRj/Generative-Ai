@@ -33,3 +33,8 @@ print(f"Sorted wardrobe: {wardrobe}")
 wardrobe_storage = [1, 2, 3, 4, 5, 6, 7, 8]
 print(f"Maximum wardrobe size: {max(wardrobe_storage)}")
 print(f"Minimum wardrobe size: {min(wardrobe_storage)}")
+
+# Adding lists by '+' [Operator Overloading]
+accessories = ["Silver metal watch", "Ajmal Silver shade"]
+new_wardrobe = clothes + accessories
+print(f"")
