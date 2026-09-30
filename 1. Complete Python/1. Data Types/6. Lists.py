@@ -38,3 +38,11 @@ print(f"Minimum wardrobe size: {min(wardrobe_storage)}")
 accessories = ["Silver metal watch", "Ajmal Silver shade"]
 new_wardrobe = clothes + accessories
 print(f"New wardrobe items are: {new_wardrobe}")
+ties = ["Tie's"] * 5
+lower_acc = ["belt", "tucker"] * 3
+print(f"Lower items in wardrobe: {lower_acc}")
+
+# Bytearray and replacing items
+new_clothes = bytearray(b"Linen")
+new_clothes = new_clothes.replace(b"Lin", b"WinWin")
+print(f"Bytes: {new_clothes}")
