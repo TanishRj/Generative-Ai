@@ -15,3 +15,5 @@ only_essential = essential_things - optional_things
 print(f"Only present in essential: {only_essential}")
 
 # Check items in sets
+print(f"Is 'Charger' in essential? {'Charger' in essential_things}")
+print(f"Is 'Phone' in optional? {'Phone' in optional_things}")
