@@ -18,4 +18,6 @@ print(f"Does age exists in person 1: {'Age' in person1_details}")
 # Checking keys and values
 person3_details = dict(name="Ramesh", gender="Male", Age=25)
 # Keys
-print(f"Person 3 details: ")
+print(f"Person 3 (keys): {person3_details.keys()}")
+# Values
+print(f"Person 3 (values): {person3_details.values()}")
