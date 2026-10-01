@@ -15,9 +15,15 @@ print(f"Person 2 without age: {person2_details}")
 # Checking value
 print(f"Does age exists in person 1: {'Age' in person1_details}")
 
-# Checking keys and values
+# Checking keys, values and items
 person3_details = dict(name="Ramesh", gender="Male", Age=25)
 # Keys
-print(f"Person 3 (keys): {person3_details.keys()}")
+# print(f"Person 3 (keys): {person3_details.keys()}")
 # Values
-print(f"Person 3 (values): {person3_details.values()}")
+# print(f"Person 3 (values): {person3_details.values()}")
+# Items
+# print(f"Person 3 (items): {person3_details.items()}")
+
+# Removing last item
+last_item = person3_details.popitem()
+print(f"Removed last item: {last_item}")
