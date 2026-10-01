@@ -27,3 +27,24 @@ person3_details = dict(name="Ramesh", gender="Male", Age=25)
 # Removing last item
 last_item = person3_details.popitem()
 print(f"Removed last item: {last_item}")
+
+# Update details
+add_details = {"Work" : "Developer", "Mode" : "Remote"}
+person3_details.update(add_details)
+
+print(f"New Person 3 Details: {person3_details}")
+
+# Get specific values
+# Exists
+# person3_work = person3_details["Work"]
+# print(f"Person 3 Work: {person3_work}")
+# Not Exists
+# not_exists = person3_details["extra activities"]
+# print(f"Person 3 non existing: {not_exists}")
+
+# Getting specific values using get
+person3_work = person3_details["Work"]
+print(f"Person 3 Work: {person3_work}")
+not_exists = person3_details.get("Extra activities", "Didn't get extra activities")
+print(f"Person 3 non existing: {not_exists}")
+  
