@@ -11,5 +11,6 @@ match seat_type:
         print("General - Cheapest beds")
     case "luxury":
         print("Luxury - Premium beds with meals")
+    # If bad input
     case _:
         print("Invalid seat type")
