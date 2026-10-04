@@ -3,4 +3,4 @@ order = ["Naman", "Tanish", "Aditya", "Ravi"]
 
 # Printing names
 for name in order:
-    print(f"")
+    print(f"Serving coffee for {name}")
