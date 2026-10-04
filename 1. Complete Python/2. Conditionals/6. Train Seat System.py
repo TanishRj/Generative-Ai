@@ -8,7 +8,7 @@ match seat_type:
     case "ac":
         print("AC - Air conditioned beds")
     case "general":
-        print("General - Cheapest beds"
+        print("General - Cheapest beds")
     case "luxury":
         print("Luxury - Premium beds with meals")
     # If bad input
