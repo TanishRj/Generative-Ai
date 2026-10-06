@@ -1,15 +1,15 @@
-# Creating a flavours list
-flavours = ["Ginger", "Out of Stock", "Lemon", "Discontinued", "Tulsi"]
+# Creating a flavors list
+flavors = ["Ginger", "Out of Stock", "Lemon", "Discontinued", "Tulsi"]
 
 # Looping through list
-for flavour in flavours:
-    # Checking if flavour is out of stock, skip that 
-    if flavour == "Out of Stock":
+for flavor in flavors:
+    # Checking if flavor is out of stock, skip that 
+    if flavor == "Out of Stock":
         # don't continue the loop to check for discontinued item
         continue
     # Break the loop and come outside
-    if flavour == "Discontinued":
+    if flavor == "Discontinued":
         break
-    print(f"{flavour} item found")
+    print(f"{flavor} item found")
 
 print(f"Outside the loop")
