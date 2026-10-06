@@ -8,5 +8,8 @@ for flavour in flavours:
         # don't continue the loop to check for discontinued item
         continue
     # Break the loop and come outside
-    if flavour == "Discountinued":
+    if flavour == "Discontinued":
         break
+    print(f"{flavour} item found")
+
+print(f"Outside the loop")
