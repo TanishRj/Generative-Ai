@@ -7,6 +7,6 @@ for flavour in flavours:
     if flavour == "Out of Stock":
         # don't continue the loop to check for discontinued item
         continue
-    # Break
+    # Break the loop and come outside
     if flavour == "Discountinued":
         break
