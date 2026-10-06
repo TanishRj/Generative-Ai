@@ -15,4 +15,6 @@ available_cars = ["bmw", "audi", "mercedes"]
 
 # Creating and checking the car is prensent in list using walrus operator
 if (requested_car := input("Enter your car name : ")) in available_cars:
-    print(f"Serving")
+    print(f"Your car is {requested_car}")
+else:
+    print(f"Car is unavailable")
