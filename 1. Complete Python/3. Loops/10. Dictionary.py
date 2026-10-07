@@ -13,3 +13,5 @@ dicounts = {
 }
 
 # Creating discounts for users
+for user in users:
+    percent, fixed = dicounts.get(user["coupon"], (0,0))
