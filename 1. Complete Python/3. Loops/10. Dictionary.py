@@ -5,6 +5,9 @@ users = [
     {"id": 3, "total":80, "coupon":"P50"}
 ]
 
+# Creating discounts dictionary
 dicounts = {
-    
+    "P20": (0.2, 0),
+    "F10": (0.2, 0),
+    "P20": (0.2, 0)
 }
