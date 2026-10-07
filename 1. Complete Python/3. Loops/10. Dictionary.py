@@ -8,6 +8,8 @@ users = [
 # Creating discounts dictionary
 dicounts = {
     "P20": (0.2, 0),
-    "F10": (0.2, 0),
-    "P20": (0.2, 0)
+    "F10": (0.5, 0),
+    "P50": (0.2, 0)
 }
+
+# Creating discounts for users
