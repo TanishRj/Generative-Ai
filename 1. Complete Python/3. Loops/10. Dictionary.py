@@ -9,11 +9,11 @@ users = [
 dicounts = {
     "P20": (0.2, 0),
     "F10": (0.5, 0),
-    "P50": (0.2, 0)
+    "P50": (0, 10)
 }
 
 # Creating discounts for users
 for user in users:
     percent, fixed = dicounts.get(user["coupon"], (0,0))
-    dicount = user["total"] * percent * fixed
+    discount = user["total"] * percent + fixed
     print(f"{user["id"]} paid {user["total"]} and got dicount for next visit of rupees {discount}")
