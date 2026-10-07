@@ -4,3 +4,7 @@ users = [
     {"id": 2, "total":150, "coupon":"F10"},
     {"id": 3, "total":80, "coupon":"P50"}
 ]
+
+dicounts = {
+    
+}
