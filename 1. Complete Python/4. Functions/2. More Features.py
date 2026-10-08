@@ -10,5 +10,11 @@ def validate_input():
 def save_to_db():
     print(f"Saving to Database")
 
+# Registering user
 def register_user():
-    print(f"")
+    print(f"User Registration")
+    get_input()
+    validate_input()
+    save_to_db()
+
+register_user()
