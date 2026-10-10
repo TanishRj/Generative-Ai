@@ -28,9 +28,9 @@ def details(name, age, gender):
     print(name, age, gender)
 
 # Positional Arguments
-details("Tanish", 21, "Male")
+# details("Tanish", 21, "Male")
 # Keyword Based Arguments
-details(name="Tanisha", gender="Female", age=19)
+# details(name="Tanisha", gender="Female", age=19)
 
 # Example - 4 (args and *Kwargs)
 # Function which takes args ad kwargs as parameters
@@ -41,4 +41,12 @@ def new_details(*name, **age):
     print("Ages are: ", age)
 
 # Printing names and age
-new_details("Tanish", "Raju", "Shubham", age_tanish=21, age_raju=22, shubham_age=24)
+# new_details("Tanish", "Raju", "Shubham", age_tanish=21, age_raju=22, shubham_age=24)
+
+# Example - 5 (Appending only when value provided)
+def new_names_list(names=None):
+    if names is None:
+        names = []
+    print(names)
+
+new_names_list()    
