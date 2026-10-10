@@ -44,9 +44,11 @@ def new_details(*name, **age):
 # new_details("Tanish", "Raju", "Shubham", age_tanish=21, age_raju=22, shubham_age=24)
 
 # Example - 5 (Appending only when value provided)
+# Defining a function which takes the name only when provided
 def new_names_list(names=None):
+    # If name is not there, the array is empty
     if names is None:
-        names = []
+        names = []    
     print(names)
-
+# Calling main function
 new_names_list()    
