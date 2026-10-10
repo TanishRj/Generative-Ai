@@ -19,4 +19,15 @@ def names_list(new_list):
     print("New names list is: ", new_list)
 
 # Calling main function
-names_list(names)
+# names_list(names)
+
+# Example - 3 (Positional and Keyword Arguments)
+
+# Defining functions that prints details
+def details(name, age, gender):
+    print(name, age, gender)
+
+# Positional Arguments
+details("Tanish", 21, "Male")
+# Keyword Based Arguments
+details(name="Tanisha", gender="Female", age=19)
