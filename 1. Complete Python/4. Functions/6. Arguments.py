@@ -31,3 +31,14 @@ def details(name, age, gender):
 details("Tanish", 21, "Male")
 # Keyword Based Arguments
 details(name="Tanisha", gender="Female", age=19)
+
+# Example - 4 (args and *Kwargs)
+# Function which takes args ad kwargs as parameters
+# (*name) = take everything without any key
+#  (**age) = Take everything with keys
+def new_details(*name, **age):
+    print("Names are: ", name)
+    print("Ages are: ", age)
+
+# Printing names and age
+new_details("Tanish", "Raju", "Shubham", age_tanish=21, age_raju=22, shubham_age=24)
