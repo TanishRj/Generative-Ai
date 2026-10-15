@@ -36,9 +36,9 @@ def details(name, age, gender):
 # Function which takes args ad kwargs as parameters
 # (*name) = take everything without any key
 #  (**age) = Take everything with keys
-# def new_details(*name, **age):
-#     print("Names are: ", name)
-#     print("Ages are: ", age)
+def new_details(*name, **age):
+    print("Names are: ", name)
+    print("Ages are: ", age)
 
 # Printing names and age
 # new_details("Tanish", "Raju", "Shubham", age_tanish=21, age_raju=22, shubham_age=24)
