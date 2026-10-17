@@ -11,7 +11,7 @@ def placed_order():
     # Calling inner function 
     new_order()
     # Printing updated value
-    # print("After order update, order is", original_order)
+    print("After order update, order is", original_order)
 
 # Calling main function
 placed_order()
