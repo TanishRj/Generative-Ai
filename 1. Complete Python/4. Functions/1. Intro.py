@@ -19,7 +19,7 @@ def filter_valid_sales():
 
 # Filtering sales function
 def summarize_data():
-    # print(f"Summarizing sales data")
+    print(f"Summarizing sales data")
 
 # Generate report function
 def generate_report():
