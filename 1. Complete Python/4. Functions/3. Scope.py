@@ -5,7 +5,7 @@ def day_name():
 
 # Global Scope
 day = "Monday"
-day_name()
+# day_name()
 print(f"Outside Function : {day}")
 
 # Enclosing Scope
