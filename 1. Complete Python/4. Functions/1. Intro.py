@@ -15,7 +15,7 @@ def fetch_sales():
 
 # Filtering sales function
 def filter_valid_sales():
-    # print(f"Filtering valid sales data")
+    print(f"Filtering valid sales data")
 
 # Filtering sales function
 def summarize_data():
