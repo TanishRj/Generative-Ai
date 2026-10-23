@@ -16,7 +16,7 @@ names = ["Tanish", "Raj", "Aditya"]
 # Function that changes name at 1st index and prints it
 def names_list(new_list):
     new_list[1] = "Aryan"
-    print("New names list is: ", new_list)
+    # print("New names list is: ", new_list)
 
 # Calling main function
 # names_list(names)
