@@ -1,6 +1,6 @@
 # Example - 1 (Printing Parameter)
 # Variable to store value as "Tanish"
-name = "Tanish"
+# name = "Tanish"
 
 # Creating new function that prints person's name
 def print_name(person):
