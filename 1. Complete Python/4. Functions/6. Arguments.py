@@ -25,7 +25,7 @@ def names_list(new_list):
 
 # Defining functions that prints details
 def details(name, age, gender):
-    print(name, age, gender)
+    # print(name, age, gender)
 
 # Positional Arguments
 # details("Tanish", 21, "Male")
