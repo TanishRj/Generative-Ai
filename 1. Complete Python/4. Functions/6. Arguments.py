@@ -38,7 +38,7 @@ def details(name, age, gender):
 #  (**age) = Take everything with keys
 def new_details(*name, **age):
     print("Names are: ", name)
-    # print("Ages are: ", age)
+    print("Ages are: ", age)
 
 # Printing names and age
 # new_details("Tanish", "Raju", "Shubham", age_tanish=21, age_raju=22, shubham_age=24)
