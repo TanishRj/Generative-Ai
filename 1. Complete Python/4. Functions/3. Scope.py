@@ -16,6 +16,6 @@ def month_name():
         month = "November"
         print(f"Inner Month : {month}")
     print_month()    
-    # print(f"Outer Month : {month}")
+    print(f"Outer Month : {month}")
 
 month_name()
