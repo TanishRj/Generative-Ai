@@ -24,7 +24,7 @@ def register_user():
 # Example - 2
 
 # Function that returns the total bill
-def calculate_bill(cups, price_per_cup):
+# def calculate_bill(cups, price_per_cup):
     return cups * price_per_cup
 
 # Storing the returned value from function
