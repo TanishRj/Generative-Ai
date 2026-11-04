@@ -7,4 +7,4 @@ while temperature < 100:
     temperature += 15
 
 # if 100 or above, boiled statement is printed 
-print(f"Temperature is {temperature}, boiled")
+# print(f"Temperature is {temperature}, boiled")
